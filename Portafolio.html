@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="headerYfooter">
         <h1>Logo</h1>
         <ol>
             <li>    
@@ -20,7 +20,7 @@
         </ol>
     </header>
     
-    <section class="presentacion">
+    <section class="hero">
         <h1>
             Hola soy <strong>Erik Ivanov </strong>!!<br>
             Soy un estudiante de Ingenieria Electrica Electronica y<br>
@@ -31,38 +31,44 @@
     
     <section id="proyectos">
         <h2>Proyectos</h2>
-        <article>
-            <h3>UNO en consola</h3>
-            <h4>Java</h4>
-            <p><small><strong>Fecha: </strong>Mayo 2019</small></p>
-            <p><small><strong>Ver: </strong><a href="https://github.com/Nyasper/UNO">Github</a></small></p>
-            <p>
+        <article class="UNO">
+            <h3 class="UNO-title">UNO en consola</h3>
+            <h4 class="UNO-programming">Java</h4>
+            <p class="UNO-date"><small><strong>Fecha: </strong>Mayo 2019</small></p>
+            <p class="UNO-GithubLink"><small><strong>Ver: </strong><a href="https://github.com/Nyasper/UNO">Github</a></small></p>
+            <p class="UNO-Description">
                 Este es el juego de UNO Cartas progranado en Java, se juega<br>
                 en una interfaz grafica hecha en consola y es de 2 a 4 juagdadores.
             </p>
-            
+            <figure class="UNO-imageWrapper">
+                <p>Imagen</p>
+            </figure>
         </article>
-        <article>
-            <h3>UNOpy en consola</h3>
-            <h4>Python</h4>
-            <p><small><strong>Fecha: </strong>Junio 2019</small></p>
-            <p><small><strong>Ver: </strong><a href="https://github.com/Nyasper/UNOPy">Github</a></small></p>
-            <p>
+        <article class="UNOpy">
+            <h3 class="UNOpy-title">UNOpy en consola</h3>
+            <h4 class="UNOpy-programming">Python</h4>
+            <p class="UNOpy-date"><small><strong>Fecha: </strong>Junio 2019</small></p>
+            <p class="UNOpy-GithubLink"><small><strong>Ver: </strong><a href="https://github.com/Nyasper/UNOPy">Github</a></small></p>
+            <p class="UNOpy-Description">
                 Este es el juego de UNO Cartas progranado en Python, se juega<br>
                 en una interfaz grafica hecha en consola y es de 2 a 4 juagdadores.
             </p>
-            <img src="Images/UnoPy.png" alt="UNO.py" width="250">
+            <figure class="UNOpy-imageWrapper">
+                <img class="UNOpy-image" src="Images/UnoPy.png" alt="UNO.py" width="250">
+            </figure>
         </article>
-        <article>
-            <h3>Calculadora de Regresion Lineal</h3>
-            <h4>Python</h4>
-            <p><small><strong>Fecha: </strong>Septiembre 2019</small></p>
-            <p><small><strong>Ver: </strong><a href="https://github.com/Nyasper/LinearRegressionCalulator">Github</a></small></p>
-            <p>
+        <article class="LRC">
+            <h3 class="LRC-title">Calculadora de Regresion Lineal</h3>
+            <h4 class="LRC-programming">Python</h4>
+            <p class="LRC-date"><small><strong>Fecha: </strong>Septiembre 2019</small></p>
+            <p class="LRC-GithubLink"><small><strong>Ver: </strong><a href="https://github.com/Nyasper/LinearRegressionCalulator">Github</a></small></p>
+            <p class="LRC-Description">
                 Es una herramienta para sacar la ecuacion de la recta tomando como<br>
                 parametros los datos en X e Y.
             </p>
-            <img src="Images\RC.png" alt="LRC.py" width="250">
+            <figure class="LRC-imageWrapper">
+                <img class="LRC-image" src="Images\RC.png" alt="LRC.py" width="250">
+            </figure>
         </article>
     </section>
     
@@ -76,7 +82,7 @@
     </section>
     
     
-    <footer>
+    <footer class="headerYfooter">
         <h1>Footer</h1>
     </footer>
 

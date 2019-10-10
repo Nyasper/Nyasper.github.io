@@ -2,14 +2,10 @@ body{
     background: #E7EC65;
 }
 
-header{
+.headerYfooter{
     background: #2A77B5;
 }
 
-footer{
-    background: #2A77B5;
-}
-
-.presentacion{
+.hero{
     background: #E8524D;
 }
