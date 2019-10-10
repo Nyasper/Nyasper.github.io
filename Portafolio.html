@@ -5,30 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Erik Ivanov (Nyasper)</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h3>Logo</h3>
+        <h1>Logo</h1>
         <ol>
-            <li>
-                <a>Proyectos</a>
+            <li>    
+                <a href="#proyectos">Proyectos</a>
             </li>
             <li>
-                <a>Contacto</a>
+                <a href="#contacto">Contacto</a>
             </li>
         </ol>
     </header>
     
-    <section>
+    <section class="presentacion">
         <h1>
             Hola soy <strong>Erik Ivanov </strong>!!<br>
             Soy un estudiante de Ingenieria Electrica Electronica y<br>
             un apasionado del desarrollo de <strong>Machine Learning en Python</strong>.
         </h1>
-        <img> Imagen de presentacion
+        <img src="Images\ErikL.png" alt="Imagen de perfil de Nyasper" width="300" height="300">
     </section>
     
-    <section>
+    <section id="proyectos">
         <h2>Proyectos</h2>
         <article>
             <h3>UNO en consola</h3>
@@ -50,10 +51,22 @@
                 Este es el juego de UNO Cartas progranado en Python, se juega<br>
                 en una interfaz grafica hecha en consola y es de 2 a 4 juagdadores.
             </p>
+            <img src="Images/UnoPy.png" alt="UNO.py" width="250">
+        </article>
+        <article>
+            <h3>Calculadora de Regresion Lineal</h3>
+            <h4>Python</h4>
+            <p><small><strong>Fecha: </strong>Septiembre 2019</small></p>
+            <p><small><strong>Ver: </strong><a href="https://github.com/Nyasper/LinearRegressionCalulator">Github</a></small></p>
+            <p>
+                Es una herramienta para sacar la ecuacion de la recta tomando como<br>
+                parametros los datos en X e Y.
+            </p>
+            <img src="Images\RC.png" alt="LRC.py" width="250">
         </article>
     </section>
     
-    <section>
+    <section id="contacto">
         <h1>Contactame!!</h1>
         <form action="/suscripcion/">
             <input type="datetime" placeholder="Deja tu Email">
